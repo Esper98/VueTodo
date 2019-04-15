@@ -1,14 +1,11 @@
 <template>
   <div id="app">
-    <router-link to="/foo">Go to Foo</router-link>
-    <router-link to="/bar">Go to About</router-link>
-    <router-view></router-view>
-    <Todo/>
+    <h1>Yes you did</h1>
   </div>
 </template>
 
 <script>
-import Todo from './components/Todo.vue'
+import Todo from '../components/Todo.vue'
 
 export default {
   name: 'app',
